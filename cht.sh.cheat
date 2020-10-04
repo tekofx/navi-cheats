@@ -1,0 +1,15 @@
+% cht.sh
+
+# Search a term
+cht.sh <term>
+
+# Shell mode
+cht.sh --shell
+
+# Start shell mode and search for a concrete language
+cht.sh --shell <language>
+
+# In shell mode change language
+cht.sh cd <language>
+
+# 
