@@ -1,0 +1,21 @@
+% goto
+
+# Change to an aliased directory
+goto <alias>
+
+# Register new alias
+goto -r <alias> <directory>
+
+# Unregister alias
+goto -u <alias>
+
+# List aliases 
+goto -l
+
+# See directory of alias
+goto -x <alias>
+
+# Remove aliases from deleted directories
+goto -c
+
+# 

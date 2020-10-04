@@ -1,0 +1,30 @@
+% forgit
+
+# Interactive git add selector
+ga 
+
+# Interactive git log viewer
+glo
+
+# Interactive .gitignore generator
+gi
+
+# Interactive git diff viewer
+gd
+
+# Interactive git reset HEAD <file>
+grh
+
+# Interactive git checkout <file> selector
+gcf
+
+# Interactive git stash viewer 
+gss
+
+# Interactive git clean selector
+gclean
+
+# Interactive git cherry-pick selector
+gcp
+
+#
