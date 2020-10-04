@@ -1,0 +1,9 @@
+% rmdir, rm
+
+# Remove not empty folder
+rm -r <folder>
+
+# Remove directory
+rmdir <folder>
+
+# 
