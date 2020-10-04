@@ -1,0 +1,17 @@
+% ssh
+
+
+# See ssh version
+ssh -v
+
+# Generate public and private key
+ssh-keygen
+
+# Add private key
+ssh -add <file>
+
+# Execute ssh-agent
+eval $(ssh-agent -s)
+
+# 
+
