@@ -1,0 +1,13 @@
+% pacman
+
+# Install package 
+sudo pacman -S <package>
+
+# Remove package
+sudo pacman -R <package>
+
+# Synchronize and update all packages
+sudo pacman -Syu
+
+#
+
