@@ -1,3 +1,3 @@
 #/!/bin/bash
-
-cp -r cheats/ ~/.local/share/navi/cheats
+git pull
+cp -r cheats/ ~/.local/share/navi/
