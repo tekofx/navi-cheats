@@ -1,0 +1,9 @@
+% wget 
+
+# Get file 
+wget <url>
+
+# Get weather in png (wttr.in)
+wget wttr.in/Leon+España.png
+
+#
