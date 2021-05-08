@@ -13,5 +13,10 @@ ssh-add <file>
 # Execute ssh-agent
 eval $(ssh-agent -s)
 
-# 
+# Connect to host
+ssh <user>@<ip_address>
 
+# Connect to host by port
+ssh -p <port> <user>@<ip_address>
+
+# 
