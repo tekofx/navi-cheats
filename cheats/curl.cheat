@@ -1,0 +1,9 @@
+% curl
+
+# Show content of webpage
+curl <url>
+
+# Show current weather
+curl wttr.in/<location>
+
+# 
