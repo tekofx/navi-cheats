@@ -4,6 +4,6 @@
 wget <url>
 
 # Get weather in png (wttr.in)
-wget wttr.in/Leon+España.png
+wget wttr.in/<location>.png
 
 #
