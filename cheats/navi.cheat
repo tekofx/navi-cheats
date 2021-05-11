@@ -1,5 +1,11 @@
 % navi
 
+# Look for cheats on tldr
+navi --tldr <cheat>
+
+# Look for cheats on cheat.sh
+navi --cheatsh <cheat>
+
 # Import cheatsheets from a repo
 navi repo add <repo>
 
