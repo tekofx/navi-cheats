@@ -1,0 +1,22 @@
+% apt
+
+# Install a package
+apt install <package>
+
+# Sync packages data from repositories
+apt update
+
+# Install updated packages
+apt upgrade
+
+# See upgradable packages
+apt list --upgradable 
+
+# Uninstall a package
+apt remove <package>
+
+# Delete unnecessary packages
+apt autoremove
+ 
+#
+
