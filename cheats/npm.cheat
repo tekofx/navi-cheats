@@ -1,0 +1,9 @@
+% npm
+
+# Install a package
+npm -g install <package>
+
+# Update all installed packages
+npm update -g
+
+# 
