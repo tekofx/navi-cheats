@@ -1,0 +1,9 @@
+% python, python3
+
+# Install a package
+python3 -m pip install <package>
+
+# Uninstall package
+python3 -m pip uninstall <package>
+
+# 
