@@ -1,0 +1,15 @@
+% df
+
+# Check disk space usage
+df
+
+# Show disk usage in readable format
+df -h
+
+# Display info in KB
+df -k
+
+# Display info in MB
+df -m
+
+#
