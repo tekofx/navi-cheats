@@ -6,4 +6,13 @@ snap install <package>
 # Update installed packages
 snap refresh
 
-#
+# List snaps installed
+snap list
+
+# Enable snap
+snap enable <package>
+
+# Disable snap
+snap disable <package>
+
+# 
