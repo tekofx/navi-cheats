@@ -1,0 +1,9 @@
+% snap
+
+# Install package
+snap install <package>
+
+# Update installed packages
+snap refresh
+
+#
