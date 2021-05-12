@@ -1,0 +1,9 @@
+% mkfs
+
+# Make file system EXT4
+mkfs.ext4 <dev_path>
+
+# Make file system vfat 
+mkfs.vfat <dev_path>
+
+#
