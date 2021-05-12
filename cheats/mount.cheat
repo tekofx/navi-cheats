@@ -1,0 +1,9 @@
+% mount 
+
+# Mount as ext4 
+mount -t ext4 <dev_path> <mount_point>
+
+# Mount as vfat
+mount -t vfat /dev/sda1 /mnt/usb
+
+#
