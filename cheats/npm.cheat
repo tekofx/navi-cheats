@@ -6,4 +6,7 @@ npm -g install <package>
 # Update all installed packages
 npm update -g
 
-# 
+# Update npm
+npm install -g npm
+
+#
