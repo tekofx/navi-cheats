@@ -9,4 +9,7 @@ npm update -g
 # Update npm
 npm install -g npm
 
-#
+# Address issues
+npm audit fix
+
+# 
