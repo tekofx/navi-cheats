@@ -1,0 +1,21 @@
+% nvim
+
+# Open neovim
+nvim
+
+# Open file 
+nvim <file>
+
+# Show version
+nvim --version
+
+# Install plugged plugins
+nvim +PlugInstall
+
+# Update installed plugins
+nvim +PlugUpdate
+
+# Update vimplug
+nvim +PlugUpgrade
+
+#
