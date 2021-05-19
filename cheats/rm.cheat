@@ -6,4 +6,7 @@ rm -r <folder>
 # Remove directory
 rmdir <folder>
 
-# 
+# Remove everything in a repo
+rm -dfr *
+
+#
