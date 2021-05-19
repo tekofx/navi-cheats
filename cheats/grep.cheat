@@ -1,0 +1,5 @@
+% grep
+# Remove packages installed after date
+grep "2015-12-19.*.install " /var/log/dpkg.log | awk '{ print $4 }' | cut -d: -f1 | xargs sudo apt-get --yes purge
+
+#
