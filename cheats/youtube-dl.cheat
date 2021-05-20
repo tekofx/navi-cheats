@@ -1,0 +1,12 @@
+% youtube-dl
+
+# Download YT video
+youtube-dl <url>
+
+# See available formats
+youtube-dl -F <url>
+
+# Download YT video with a format
+youtube-dl -f <format_number>
+
+#
