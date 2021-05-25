@@ -1,0 +1,9 @@
+% icat
+
+# Show image in terminal
+icat <image>
+
+# Show image align (center, left, right)
+icat --align <value> <image>
+
+# 
