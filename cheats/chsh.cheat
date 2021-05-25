@@ -1,0 +1,9 @@
+% chsh.cheat
+
+# Change default shell to bash
+chsh -s /usr/bin/bash
+
+# Change default shell to fish
+chsh -s /usr/bin/fish
+
+#
