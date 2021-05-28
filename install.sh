@@ -1,3 +1,2 @@
 #/!/bin/bash
-git pull
-cp -r cheats/ ~/.local/share/navi/
+navi repo add https://github.com/Tekofx/navi-cheats.git
