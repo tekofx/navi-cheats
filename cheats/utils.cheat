@@ -1,0 +1,6 @@
+% cat
+
+# Show mounted disks
+cat proc/mounts
+
+#
