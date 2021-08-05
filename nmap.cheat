@@ -6,7 +6,10 @@ sudo nmap -sn <your_ip>/<CIDR>
 # check if port is open
 nmap -p <port> -Pn <ip>
 
-# See open ports of device
-sudo nmap -p <initial_port>-<last_port> -Pn <ip>
+# Scan fast the most common ports
+sudo nmap -F <ip>
 
-#
+# Scan all ports
+sudo nmap -p- <ip>
+
+
