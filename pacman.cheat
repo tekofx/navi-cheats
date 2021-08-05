@@ -9,5 +9,14 @@ sudo pacman -R <package>
 # Synchronize and update all packages
 sudo pacman -Syu
 
+# Search for packages
+pacman -Ss <package>
+
+# List packages installed
+pacman -Q
+
+# Show info of package installed
+pacman -Qi <package>
+
 #
 
