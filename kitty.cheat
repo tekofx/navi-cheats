@@ -1,0 +1,12 @@
+% kitty 
+
+# Change theme
+kitty +kitten themes
+
+# Show an image 
+kitty +kitten icat <image>
+
+# Broadcast to other kitty windows
+kitty +kitten broadcast
+
+# 
