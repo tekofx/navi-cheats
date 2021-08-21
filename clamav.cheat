@@ -1,0 +1,10 @@
+% clamscan, freshclam
+
+# Update virus database
+sudo freshclam
+
+# Scan directory
+sudo clamscan <directory>
+
+#
+
