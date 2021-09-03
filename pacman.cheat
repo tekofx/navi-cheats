@@ -18,5 +18,6 @@ pacman -Q
 # Show info of package installed
 pacman -Qi <package>
 
-#
+# Removed cached packages not installed
+sudo pacman -Sc
 
