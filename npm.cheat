@@ -12,4 +12,5 @@ npm install -g npm
 # Address issues
 npm audit fix
 
-# 
+# Remove cache
+npm cache clean --force 
