@@ -1,6 +1,6 @@
 % zip
 
 # Zip a folder
-zip <zip_name> <folder>
+zip -r <zip_name> <folder>
 
-# 
+#  
