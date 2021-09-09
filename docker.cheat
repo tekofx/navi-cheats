@@ -25,4 +25,13 @@ docker ps -a
 # Show images
 docker images
 
-# 
+# Open bash in a container
+docker exec -it <container> bash
+
+# Commit changes of container to an image
+docker commit <container> <image>
+
+# Pull image
+docker pull <image>
+
+#
