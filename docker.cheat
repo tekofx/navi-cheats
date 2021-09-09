@@ -1,0 +1,25 @@
+% docker
+
+
+# Build container from Dockerfile
+sudo docker build -t <image_name> .
+
+# Run container dettached
+sudo docker run -d --name <image_name> <image>
+
+# Run container exposing ports
+sudo docker run -d -p 80:80 --name furbot furbot_docker:latest
+
+# Start container
+docker start <container>
+
+# Stop container
+docker stop <container>
+
+# Restart container 
+docker restart <container>
+
+# List docker processes
+docker ps -a
+
+#
