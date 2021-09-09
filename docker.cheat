@@ -22,4 +22,7 @@ docker restart <container>
 # List docker processes
 docker ps -a
 
-#
+# Show images
+docker images
+
+# 
