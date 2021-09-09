@@ -1,0 +1,6 @@
+% zip
+
+# Zip a folder
+zip <zip_name> <folder>
+
+# 
