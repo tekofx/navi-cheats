@@ -40,4 +40,7 @@ docker commit <container> <image>
 # Pull image
 docker pull <image>
 
+# Update docker to restart if it is not stopped
+docker update --restart=unless-stopped <container>
+
 #
