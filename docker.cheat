@@ -2,13 +2,19 @@
 
 
 # Build container from Dockerfile
-sudo docker build -t <image_name> .
+docker build -t <image_name> .
 
 # Run container dettached
-sudo docker run -d --name <image_name> <image>
+docker run -d <image>
+
+# Run container giving it a name
+docker run --name <container_name> <image>
 
 # Run container exposing ports
-sudo docker run -d -p 80:80 --name furbot furbot_docker:latest
+docker run -p 80:80 <image>
+
+# Run container with bind directory
+docker run -mount type=bind,src=<host_dir>,dst=<docker_dir> <image> 
 
 # Start container
 docker start <container>
