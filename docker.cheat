@@ -43,4 +43,7 @@ docker pull <image>
 # Update docker to restart if it is not stopped
 docker update --restart=unless-stopped <container>
 
+# See stats of running containers
+docker stats
+
 #
