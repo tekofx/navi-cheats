@@ -19,4 +19,7 @@ ssh <user>@<ip_address>
 # Connect to host by port
 ssh -p <port> <user>@<ip_address>
 
+# Enable X11 forwarding
+ssh -X <host>
+
 # 
