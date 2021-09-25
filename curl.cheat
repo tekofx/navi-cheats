@@ -6,4 +6,13 @@ curl <url>
 # Show current weather
 curl wttr.in/<location>
 
-# 
+# Get cht.sh cheats
+curl cheat-sh/curl
+
+# Create QR Code
+curl qrcode.show/INPUT
+
+# Create QR Code giving input
+curl qrcode.show -d INPUT
+
+#
