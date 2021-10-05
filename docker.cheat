@@ -49,4 +49,7 @@ docker stats
 # Remove all unused docker images
 docker image prune
 
-# 
+# Prune system
+docker system prune
+
+#
