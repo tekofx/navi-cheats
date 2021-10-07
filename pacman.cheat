@@ -21,3 +21,5 @@ pacman -Qi <package>
 # Removed cached packages not installed
 sudo pacman -Sc
 
+# Removed unused packages
+sudo pacman -Rs (pacman -Qdtq)
