@@ -1,4 +1,4 @@
-% pacman
+% pacman, yay
 
 # Install package 
 sudo pacman -S <package>
@@ -23,3 +23,6 @@ sudo pacman -Sc
 
 # Removed unused packages
 sudo pacman -Rs (pacman -Qdtq)
+
+# Removed a package and its dependecies
+sudo pacman -Rsnc <package>
