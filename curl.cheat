@@ -18,4 +18,8 @@ curl qrcode.show -d INPUT
 # Get public ip
 curl ifconfig.me
 
-#
+# Get location of ip address
+curl https://freegeoip.app/xml/<ip_address>
+
+# Get location of your ip address
+curl https://freegeoip.app/xml/
