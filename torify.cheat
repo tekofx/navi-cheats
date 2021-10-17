@@ -3,5 +3,8 @@
 # Use tor with a program
 torify <program>
 
+# Use tor with isolation (different ips)
+torify -i <program>
+
 #
 
