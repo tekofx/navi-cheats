@@ -15,4 +15,7 @@ curl qrcode.show/INPUT
 # Create QR Code giving input
 curl qrcode.show -d INPUT
 
+# Get public ip
+curl ifconfig.me
+
 #
