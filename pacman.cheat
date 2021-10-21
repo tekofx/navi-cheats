@@ -26,3 +26,6 @@ sudo pacman -Rs (pacman -Qdtq)
 
 # Removed a package and its dependecies
 sudo pacman -Rsnc <package>
+
+# See packages installed by user
+pacman -Qt
