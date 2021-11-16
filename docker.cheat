@@ -52,4 +52,16 @@ docker image prune
 # Prune system
 docker system prune
 
+# See container logs
+docker logs <container>
+
+# See latest n container logs messages
+docker logs --tail <n> <container>
+
+# See container logs in real time
+docker logs -f <container>
+
+# See container logs more recent
+docker logs --since <time> <container>
+
 #
