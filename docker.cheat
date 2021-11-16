@@ -64,4 +64,7 @@ docker logs -f <container>
 # See container logs more recent
 docker logs --since <time> <container>
 
+# Docker logs with color
+docker logs  <container> 2>&1 | ccze -m ansi
+
 #
