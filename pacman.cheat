@@ -1,31 +1,31 @@
 % pacman, yay
 
 # Install package 
-sudo pacman -S <package>
+yay -S <package>
 
 # Remove package
-sudo pacman -R <package>
+yay -R <package>
 
 # Synchronize and update all packages
-sudo pacman -Syu
+yay -Syu
 
 # Search for packages
-pacman -Ss <package>
+yay -Ss <package>
 
 # List packages installed
-pacman -Q
+yay -Q
 
 # Show info of package installed
-pacman -Qi <package>
+yay -Qi <package>
 
 # Removed cached packages not installed
-sudo pacman -Sc
+yay -Sc
 
 # Removed unused packages
-sudo pacman -Rs (pacman -Qdtq)
+yay -Rs (yay -Qdtq)
 
 # Removed a package and its dependecies
-sudo pacman -Rsnc <package>
+yay -Rsnc <package>
 
 # See packages installed by user
-pacman -Qt
+yay -Qt
