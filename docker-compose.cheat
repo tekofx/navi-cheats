@@ -1,0 +1,39 @@
+% docker-compose
+
+# Build services images
+docker-compose build
+
+# Run services
+docker-compose up
+
+# Run services dettached
+docker-compose up -d
+
+# Run single service
+docker-compose up <service>
+
+# Stop and remove services
+docker-compose down
+
+# Stop and remove single service
+docker-compose down <service>
+
+# Restart services
+docker-compose restart
+
+# Rertart single service 
+docker-compose restart <service>
+
+# Stop services without remove
+docker-compose stop
+
+# Stop single service without remove
+docker-compose stop <service>
+
+# Services logs
+docker-compose logs
+
+# Single service logs
+docker-compose logs <service>
+
+#
