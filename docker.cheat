@@ -52,6 +52,9 @@ docker image prune
 # Prune system
 docker system prune
 
+# Prune system (no confirm)
+docker system prune -f
+
 # See container logs
 docker logs <container>
 
