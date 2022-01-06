@@ -1,0 +1,12 @@
+% convert
+
+# Change size
+convert <input_image> -resize <width>x<height> <output_image>
+
+# Change quality
+convert <input_image> -quality <quality_factor> <output_image>
+
+# Change type of file
+convert <input_image> <output_image>
+
+#
