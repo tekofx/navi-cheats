@@ -70,4 +70,7 @@ docker logs --since <time> <container>
 # Docker logs with color
 docker logs  <container> 2>&1 | ccze -m ansi
 
-#
+# Login to github container registry
+echo <access_token> | docker login ghcr.io -u <github_username> --password-stdin
+
+# 
