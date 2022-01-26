@@ -9,4 +9,7 @@ youtube-dl -F <url>
 # Download YT video with a format
 youtube-dl -f <format_number>
 
+# Download YT video as mp3
+youtube-dl --extract-audio --audio-format mp3 <url>
+
 #
