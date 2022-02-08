@@ -76,4 +76,7 @@ echo <access_token> | docker login ghcr.io -u <github_username> --password-stdin
 # Build and push multiarch image
 docker buildx build -t <container_registry> --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .  
 
+# Filter docker logs by a word
+docker logs <container> 2>&1 | grep <word>
+
 # 
