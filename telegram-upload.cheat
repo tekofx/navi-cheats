@@ -4,7 +4,7 @@
 telegram-upload <file>
 
 # Upload to a chat
-telegram-upload --to <username/phone/link> <file>
+telegram-upload --to <username_phone_link> <file>
 
 # Use a different config file
 telegram-upload --config <config_file> <file>
