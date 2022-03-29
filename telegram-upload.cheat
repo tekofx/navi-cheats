@@ -1,0 +1,13 @@
+% telegram-upload
+
+# Upload to saved messages
+telegram-upload <file>
+
+# Upload to a chat
+telegram-upload --to <username/phone/link> <file>
+
+# Use a different config file
+telegram-upload --config <config_file> <file>
+
+#
+
