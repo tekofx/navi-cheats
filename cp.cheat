@@ -1,0 +1,12 @@
+% cp
+
+# Copy file to directory
+cp <file> <directory>
+
+# Copy a folder with its subfolders
+cp -r <folder> <directory>
+
+# Copy flatpak desktop entries
+sudo cp /var/lib/flatpak/exports/share/applications/* /usr/share/applications/
+
+#
