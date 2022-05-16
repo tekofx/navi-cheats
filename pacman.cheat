@@ -1,13 +1,13 @@
 % pacman, yay
 
 # Install package 
-yay -S <package>
+yay -S <package> --noconfirm
 
 # Remove package
-yay -R <package>
+yay -R <package> --noconfirm
 
 # Synchronize and update all packages
-yay -Syu
+yay -Syu --noconfirm
 
 # Search for packages
 yay -Ss <package>
@@ -19,13 +19,13 @@ yay -Q
 yay -Qi <package>
 
 # Removed cached packages not installed
-yay -Sc
+yay -Sc --noconfirm
 
 # Removed unused packages
-yay -Rs (yay -Qdtq)
+yay -Rs (yay -Qdtq) --noconfirm
 
 # Removed a package and its dependecies
-yay -Rsnc <package>
+yay -Rsnc <package> --noconfirm
 
 # See packages installed by user
 yay -Qt
