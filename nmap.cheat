@@ -1,7 +1,7 @@
 % nmap
 
 # See devices connected to network
-sudo nmap -sn <your_ip>/<CIDR>
+sudo nmap -sn 192.168.1.0/24
 
 # check if port is open
 nmap -p <port> -Pn <ip>
