@@ -29,3 +29,6 @@ yay -Rsnc <package> --noconfirm
 
 # See packages installed by user
 yay -Qt
+
+# Update mirrorlist with the fastest mirrors
+sudo pacman-mirrors --fasttrack && sudo pacman -Syu
