@@ -9,7 +9,7 @@ navi --cheatsh <cheat>
 # Import cheatsheets from a repo
 navi repo add <repo>
 
-# Update this repo cheats
+# Update Tekofx's cheats
 navi repo add https://github.com/Tekofx/navi-cheats.git
 
 #
