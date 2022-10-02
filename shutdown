@@ -1,0 +1,13 @@
+% shutdown
+
+# Turn off now
+sudo shutdown now
+
+# Turn off at a time
+sudo shutdown <hour>:<minute>
+
+# Reboot
+sudo shutdown -r
+
+# Reboot at a time
+sudo shutdown -r <hour>:<minute>
