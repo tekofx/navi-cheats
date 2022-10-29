@@ -1,0 +1,16 @@
+% flatpak
+
+# Install a package
+flatpak install <package>
+
+# List installed packages
+flatpak list
+
+# Uninstall package
+flatpak uninstall <package>
+
+# Remove unused packages
+flatpak uninstall --unused
+
+# Update packages
+flatpak update
