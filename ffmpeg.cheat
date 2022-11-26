@@ -1,0 +1,4 @@
+% ffmpeg
+
+# Convert video to other format
+ffmpeg -i <video> <video_out>
