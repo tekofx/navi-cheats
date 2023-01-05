@@ -1,0 +1,7 @@
+% usermod
+
+# Add user to docker group
+sudo usermod -aG docker <user>
+
+# Add user to group
+sudo usermod -aG <group> <user>

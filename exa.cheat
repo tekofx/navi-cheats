@@ -1,0 +1,7 @@
+% exa, ls
+
+# Show filed and its data
+exa -bghHliS
+
+# Tree
+exa -T

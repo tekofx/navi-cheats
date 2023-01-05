@@ -3,4 +3,5 @@
 # Stop tracking a file
 git update-index --assume-unchanged <file>
 
-# 
+# Clone with ssh from github 
+git clone git@github.com:<user>/<repo>.git
