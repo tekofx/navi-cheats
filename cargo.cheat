@@ -1,0 +1,10 @@
+% cargo
+
+# Install a package
+cargo install <package>
+
+# List installed packages
+cargo install --list
+
+# Uninstall package
+cargo uninstall <package>

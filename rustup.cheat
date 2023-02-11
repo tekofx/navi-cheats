@@ -1,0 +1,7 @@
+% rustup
+
+# Update rust
+rustup update
+
+# Download latest stable Rust
+rustup default stable
