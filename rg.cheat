@@ -1,0 +1,19 @@
+% rg
+
+# Search text in file
+rg <text> <file>
+
+# Search word in file type
+rg <text> -g '*.<extension>'
+
+# Replace text
+rg <text-to-replace> <file> --replace <new-text>
+
+# Search text and show 2 lines up and down
+rg -C 2 <text>
+
+# Search text case sensitive
+rg -s <text>
+
+# Get files that matches text
+rg -l <text>
