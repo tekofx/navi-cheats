@@ -2,7 +2,7 @@
 
 
 # Build container from Dockerfile
-docker build -t <image_name> .
+docker buildx build -t <image_name> .
 
 # Run container dettached
 docker run -d <image>
