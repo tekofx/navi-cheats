@@ -46,7 +46,7 @@ docker update --restart=unless-stopped <container>
 # See stats of running containers
 docker stats
 
-# Remove all unused docker images
+# Remove all dangling images
 docker image prune
 
 # Prune system
