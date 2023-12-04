@@ -79,4 +79,8 @@ docker buildx build -t <container_registry> --platform linux/arm/v7,linux/arm64/
 # Filter docker logs by a word
 docker logs <container> 2>&1 | grep <word>
 
-# 
+# Remove all unused images
+docker image prune --all
+
+# See disk usage
+docker system df
