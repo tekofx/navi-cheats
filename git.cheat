@@ -5,3 +5,6 @@ git update-index --assume-unchanged <file>
 
 # Clone with ssh from github 
 git clone git@github.com:<user>/<repo>.git
+
+# Config username and mail
+git config --global user.mail "<mail>" && git config --global user.name "<username>"
