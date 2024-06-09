@@ -3,7 +3,7 @@
 # Install package
 sudo dnf install -y <package>
 
-# Install package
+# Remove package
 sudo dnf remove -y <package>
 
 # Update packages
