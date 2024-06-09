@@ -1,10 +1,10 @@
 % dnf
 
 # Install package
-sudo dnf install <package>
+sudo dnf install -y <package>
 
 # Install package
-sudo dnf remove <package>
+sudo dnf remove -y <package>
 
 # Update packages
 sudo dnf update
