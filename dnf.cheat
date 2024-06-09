@@ -1,0 +1,10 @@
+% dnf
+
+# Install package
+sudo dnf install <package>
+
+# Update packages
+sudo dnf update
+
+# Remove unused 
+sudo dnf autoremove
