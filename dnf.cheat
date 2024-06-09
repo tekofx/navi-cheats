@@ -3,6 +3,9 @@
 # Install package
 sudo dnf install <package>
 
+# Install package
+sudo dnf remove <package>
+
 # Update packages
 sudo dnf update
 
