@@ -6,6 +6,9 @@ sudo shutdown now
 # Turn off at a time
 sudo shutdown <hour>:<minute>
 
+# Turn off after given minutes
+shutdown -h <minutes>
+
 # Reboot
 sudo shutdown -r
 
