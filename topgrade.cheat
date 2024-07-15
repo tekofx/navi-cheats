@@ -1,0 +1,10 @@
+% topgrade
+
+# Update package
+topgrade
+
+# Update without asking
+topgrade --yes
+
+# Update with no retry
+topgrade --no-retry
