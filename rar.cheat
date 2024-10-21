@@ -1,0 +1,7 @@
+% rar
+
+# Extract rar file
+unrar e <file>
+
+# Extract rar with password
+unrar e -p<password> <file>
