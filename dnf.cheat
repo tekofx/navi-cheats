@@ -22,4 +22,7 @@ sudo dnf config-manager --set-enabled <repo>
 sudo dnf config-manager --set-disabled <repo>
 
 # Get packages installed from a repo
- dnf repository-packages <repo> list --installed
+dnf repository-packages <repo> list --installed
+
+# List repos
+dnf repolist
