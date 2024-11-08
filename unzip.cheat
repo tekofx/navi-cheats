@@ -5,3 +5,5 @@ unzip <file>
 
 # Unzip to a specific folder
 unzip <file> -d <folder>
+
+$ file: ls *.zip
