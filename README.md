@@ -1,4 +1,4 @@
-A bunch of useful cheatsheets for [navi](https://github.com/denisidoro/navi)
+A bunch of useful cheatsheets for [Navi](https://github.com/denisidoro/navi)
 
 ## How to add the cheats to navi
 You need to have navi installed and run:
