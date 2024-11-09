@@ -11,3 +11,9 @@ git config --global user.mail "<mail>" && git config --global user.name "<userna
 
 # Create new branch
 git checkout -b <branch>
+
+# Push current branch to remote
+git push --set-upstream origin <current_branch>
+
+
+$current_branch: git branch --show-current
