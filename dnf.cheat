@@ -11,3 +11,18 @@ sudo dnf update
 
 # Remove unused 
 sudo dnf autoremove
+
+# Add repo
+sudo dnf config-manager --add-repo <repo>
+
+# Enable repo
+sudo dnf config-manager --set-enabled <repo>
+
+# Disable repo
+sudo dnf config-manager --set-disabled <repo>
+
+# Get packages installed from a repo
+dnf repository-packages <repo> list --installed
+
+# List repos
+dnf repolist
