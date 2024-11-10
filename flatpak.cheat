@@ -14,3 +14,9 @@ flatpak uninstall --unused
 
 # Update packages
 flatpak update
+
+# Run flatpak
+flatpak run <package>
+
+
+$ package: flatpak list --app --columns=application
