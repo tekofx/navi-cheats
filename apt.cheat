@@ -1,7 +1,7 @@
 % apt
 
 # Install a package
-apt install <package>
+<sudo_cmd> apt install <package>
 
 # Sync packages data from repositories
 apt update
@@ -20,3 +20,4 @@ apt autoremove
  
 #
 
+$ sudo_cmd: [ "$(id -u)" -ne 0 ] && echo sudo || echo ""
