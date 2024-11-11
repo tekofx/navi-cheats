@@ -7,6 +7,4 @@ ffmpeg -i <video> <video_out>
 $ video: find . -type f -name "*.mp4" -o -name "*.mkv" -o -name "*.avi" -o -name "*.mov"
 
 # Generate output file name with different formats
-$ video_out: |
-  basename=$(basename "<video>" | sed 's/\.[^.]*$//')
-  echo -e "${basename}.avi\n${basename}.mkv\n${basename}.mp4\n${basename}.mov"
+$ video_out: basename=$(basename "<video>" | sed 's/\.[^.]*$//'); echo -e "${basename}.avi\n${basename}.mkv\n${basename}.mp4\n${basename}.mov"
