@@ -4,7 +4,7 @@
 sudo dnf install -y <package>
 
 # Remove package
-sudo dnf remove -y <package>
+sudo dnf remove -y <installed_packages>
 
 # Update packages
 sudo dnf update
@@ -26,3 +26,9 @@ dnf repository-packages <repo> list --installed
 
 # List repos
 dnf repolist
+
+# List installed packages
+dnf info --installed
+
+
+$ installed_packages: dnf list --installed | awk '{print $1}' | tail -n +2
