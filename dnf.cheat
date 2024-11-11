@@ -31,4 +31,4 @@ dnf repolist
 dnf info --installed
 
 
-$ installed_packages: dnf list --installed | awk '{print $1}' | tail -n +2 | fzf --multi --preview 'dnf info {}'
+$ installed_packages: dnf list --installed | awk '{print $1}' | tail -n +2 --- --multi --preview 'dnf info {}'
