@@ -1,10 +1,10 @@
 % ffmpeg
 
 # Convert video to other format
-ffmpeg -i <video> <video_out>
+ffmpeg -i "<video>" "<video_out>"
 
 # List available video files
-$ video: find . -type f -name "*.mp4" -o -name "*.mkv" -o -name "*.avi" -o -name "*.mov"
+$ video: find . -type f -name "*.mp4" -o -name "*.mkv" -o -name "*.avi" -o -name "*.mov" | sed 's/.*/"&"/'
 
 # Generate output file name with different formats
-$ video_out: basename=$(basename "<video>" | sed 's/\.[^.]*$//'); echo -e "${basename}.avi\n${basename}.mkv\n${basename}.mp4\n${basename}.mov"
+$ video_out: basename=$(basename "<video>" | sed 's/\.[^.]*$//'); echo -e "\"${basename}.avi\"\n\"${basename}.mkv\"\n\"${basename}.mp4\"\n\"${basename}.mov\""
