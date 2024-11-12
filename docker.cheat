@@ -84,3 +84,6 @@ docker image prune --all
 
 # See disk usage
 docker system df
+
+# Remove all images
+docker rmi -f $(docker images -aq)
