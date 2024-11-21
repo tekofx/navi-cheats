@@ -1,14 +1,14 @@
 % youtube-dl
 
 # Download YT video
-yt-dlp <url>
+yt-dlp '<url>'
 
 # See available formats
-yt-dlp -F <url>
+yt-dlp -F '<url>'
 
 # Download YT video with a format
 yt-dlp -f <format_number>
 
 # Download YT video as mp3
-yt-dlp --extract-audio --audio-format mp3 <url>
+yt-dlp --extract-audio --audio-format mp3 '<url>'
 
