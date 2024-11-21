@@ -1,7 +1,11 @@
-% rar
+% rar, unrar
 
 # Extract rar file
 unrar e <file>
 
 # Extract rar with password
 unrar e -p<password> <file>
+
+
+# List available video files
+$ file: find . -type f -name "*.rar"  
