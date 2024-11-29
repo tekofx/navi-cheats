@@ -1,14 +1,16 @@
 % yt-dlp
 
 # Download YT video
-yt-dlp '<url>'
+yt-dlp <url>
 
 # See available formats
-yt-dlp -F '<url>'
+yt-dlp -F <url>
 
 # Download YT video with a format
-yt-dlp -f <format_number>
+yt-dlp -f <format_number> <url>
 
 # Download YT video as mp3
 yt-dlp --extract-audio --audio-format mp3 '<url>'
 
+# Download video as mp4 in best quality
+yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]' <url>
