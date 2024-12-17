@@ -1,0 +1,10 @@
+% stow
+
+# Symlink the contents of the current folder to parent folder
+stow .
+
+# Remove symlinks of the parent folder (execute on child folder)
+stow -D .
+
+# Clone dotfiles repo and symlink to HOME folder
+git clone https://github.com/tekofx/dotfiles.git $HOME/.dotfiles && cd $HOME/.dotfiles && stow .
