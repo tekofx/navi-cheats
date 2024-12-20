@@ -13,13 +13,13 @@ sudo dnf update
 sudo dnf autoremove
 
 # Add repo
-sudo dnf config-manager --add-repo <repo>
+sudo dnf config-manager addrepo --from-repofile=<repo>
 
 # Enable repo
-sudo dnf config-manager --set-enabled <repo>
+sudo dnf config-manager <repo>.enabled=1
 
 # Disable repo
-sudo dnf config-manager --set-disabled <repo>
+sudo dnf config-manager <repo>.enabled=0
 
 # Get packages installed from a repo
 dnf repository-packages <repo> list --installed
