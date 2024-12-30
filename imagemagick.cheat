@@ -9,4 +9,4 @@ convert <file> -quality <quality_factor> <output_image>
 # Change type of file
 convert <file> <output_image>
 
-$ file: ls *.jpg *.png *.webp *.jpeg *.svg
+$ file: ls *.{jpg,png,webp,JPG,PNG,WEBP}
