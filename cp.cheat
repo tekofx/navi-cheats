@@ -9,4 +9,5 @@ cp -r <folder> <directory>
 # Copy flatpak desktop entries
 sudo cp /var/lib/flatpak/exports/share/applications/* /usr/share/applications/
 
-#
+$ file: exa -f
+$ folder: exa -d
