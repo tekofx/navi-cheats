@@ -6,5 +6,4 @@ sudo freshclam
 # Scan directory
 sudo clamscan <directory>
 
-#
-
+$ directory: exa -D

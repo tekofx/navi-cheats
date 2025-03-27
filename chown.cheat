@@ -6,3 +6,4 @@ sudo chown -R <user>:<group> <directory>
 # Change owner of folder to user
 sudo chown -R $USER:$USER <directory>
 
+$ directory: exa -D
