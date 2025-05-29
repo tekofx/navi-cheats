@@ -1,0 +1,10 @@
+% nix, nixos-rebuild
+
+# Rebuild
+sudo nixos-rebuild switch --flake $HOME/.nixos/<workstation>
+
+# Update 
+sudo nix flake update --flake $HOME/.nixos
+
+# Remove old generations
+sudo nix-collect-garbage --delete-old
