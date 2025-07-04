@@ -1,0 +1,13 @@
+% tailscale
+
+# Start tailscale
+taiscale up
+
+# Stop tailscale
+tailscale down
+
+# Status
+tailscale status
+
+# Set user as operator
+sudo tailscale set --operator=$USER
