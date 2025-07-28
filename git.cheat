@@ -15,5 +15,7 @@ git checkout -b <branch>
 # Push current branch to remote
 git push --set-upstream origin <current_branch>
 
+# Rename current branch
+git branch -m <new-name>
 
 $current_branch: git branch --show-current
