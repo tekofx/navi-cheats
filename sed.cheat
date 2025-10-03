@@ -1,0 +1,6 @@
+% sed
+
+# Replace word from file
+sed -i 's/<word>/<replace>/g' <file>
+
+$ file: exa -f

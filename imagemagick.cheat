@@ -1,12 +1,12 @@
 % convert
 
 # Change size
-convert <input_image> -resize <width>x<height> <output_image>
+convert <file> -resize <width>x<height> <output_image>
 
 # Change quality
-convert <input_image> -quality <quality_factor> <output_image>
+convert <file> -quality <quality_factor> <output_image>
 
 # Change type of file
-convert <input_image> <output_image>
+convert <file> <output_image>
 
-#
+$ file: ls *.{jpg,png,webp,JPG,PNG,WEBP}

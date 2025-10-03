@@ -1,0 +1,18 @@
+% nix, nixos-rebuild
+
+# Rebuild
+sudo nixos-rebuild switch --flake $HOME/.nixos/#<workstation>
+
+# Update 
+sudo nix flake update --flake $HOME/.nixos
+
+# Remove old generations
+sudo nix-collect-garbage --delete-old
+
+# Remove nix-store garbage
+nix-store --gc
+
+# Optimise nix store
+sudo nix-store --optimise
+
+$ workstation: nix flake show --json "$HOME/.nixos" 2>/dev/null | jq -r '.nixosConfigurations | keys[]'
