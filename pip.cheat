@@ -1,0 +1,22 @@
+% pip
+
+# Install a package
+pip install <package>
+
+# Uninstall package
+pip uninstall <package>
+
+# Update a package
+pip install <package_name> --upgrade
+
+# Update all packages
+pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U 
+
+# List installed packages by user
+pip list --user
+
+# Generate requirements.txt
+pip freeze > requirements.txt
+
+# Update requirements.txt
+pip freeze >> requirements.txt
