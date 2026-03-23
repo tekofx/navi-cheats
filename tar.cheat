@@ -1,7 +1,10 @@
 % tar
 
-# Extract 
-tar -xfv <file>
+# Extract tar
+tar -xfv <tar_file>
 
+# Extract tar.gz
+tar -xzfv <tar_gz_file>
 
-$file: find . -maxdepth 1 -name "*.tar.gz" -o -name "*.tgz" 
+$tar_file: find . -maxdepth 1 -name "*.tar" -o -name "*.tar" 
+$tar_gz__file: find . -maxdepth 1 -name "*.tar.gz" -o -name "*.tgz" 
