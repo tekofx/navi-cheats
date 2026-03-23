@@ -1,0 +1,7 @@
+% tar
+
+# Extract 
+tar -xfv <file>
+
+
+$file: find . -maxdepth 1 -name "*.tar.gz" -o -name "*.tgz" 
