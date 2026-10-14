@@ -1,4 +1,4 @@
-% exa, ls
+% chmod
 
 # Add execution permission to a shell script
 sudo chmod +x <script_file>
