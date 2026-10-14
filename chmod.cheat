@@ -1,0 +1,6 @@
+% exa, ls
+
+# Add execution permission to a shell script
+sudo chmod +x <script_file>
+
+$ script_file: find . -maxdepth 3 -name "*.sh" --- --preview "ls -l {}"
