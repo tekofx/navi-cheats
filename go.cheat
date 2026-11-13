@@ -1,0 +1,13 @@
+% go
+
+# Init project
+go mod init <project>
+
+# Install package
+go install <package>
+
+# Tidy dependencies
+go mod tidy
+
+# Update dependencies
+go get -u
