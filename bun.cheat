@@ -1,0 +1,7 @@
+% cp
+
+# Install package
+bun install <package>
+
+# Update dependencies
+bun update
