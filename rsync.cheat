@@ -1,0 +1,4 @@
+% rsync 
+
+# Copy file with progress bar
+rsync --progress <file_or_directory> <destination>
